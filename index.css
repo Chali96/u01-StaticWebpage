@@ -94,7 +94,7 @@ padding-left:20px;
 }
 
 
-.section1 p {
+.section p {
     color: #FFF;
 font-family: Newsreader;
 font-style: normal;
@@ -102,12 +102,16 @@ font-weight: 400;
 flex-shrink: 0;
 }
 
+.section1 p{
+    width: 412;
+    height: 40px;
+}
 
-.aboutme{
+.heading{
     text-align: center;
     font-size: 65px;
     line-height: 20px; /* 30.769% */ 
-    width: 412px;
+    width: 512px;
 height: 40px;
 flex-shrink: 0;
 
