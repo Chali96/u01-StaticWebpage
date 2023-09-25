@@ -154,3 +154,13 @@ line-height: 35px; /* 116.667% */
     height: 832px;
     padding: 7%;   
 }
+
+.imaages-container{
+    display: flex;
+}
+
+.imaages-container img{
+ width: 300px;
+ margin: 10px;
+
+}
