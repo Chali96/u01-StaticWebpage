@@ -4,6 +4,7 @@ body {
 margin: auto;
 }
 
+
 .headerbody{
     display: flex;
     flex-direction: row;
@@ -13,9 +14,8 @@ margin: auto;
 }
 
 header p {
-    color: #FFF;
-text-align: center;
-font-family: Martel Sans;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Newsreader;text-align: center;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
@@ -71,8 +71,8 @@ text-decoration: none;
 h1 {
     width: 1096px;
 height: 1235px;
-color: #FFF;
-font-family: Viaoda Libre;
+color: rgba(255, 255, 255, 0.50);
+font-family: Newsreader;
 font-size: 100px;
 font-style: normal;
 font-weight: 400;
@@ -95,8 +95,8 @@ padding-left:20px;
 
 
 .section p {
-    color: #FFF;
-font-family: Newsreader;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Newsreader;
 font-style: normal;
 font-weight: 400;
 flex-shrink: 0;
@@ -175,4 +175,14 @@ line-height: 35px; /* 116.667% */
 height: 800px;
 background-repeat: no-repeat;
 margin: auto;
+}
+
+.skillscontainer p {
+font-size: 75px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px; /* 20% */
+width: auto;
+height: 136px;
+flex-shrink: 0;
 }
