@@ -177,6 +177,12 @@ background-repeat: no-repeat;
 margin: auto;
 }
 
+.techlang-container{
+    display: flex;
+    flex-direction: row;
+   gap: 300px;
+}
+
 .skillscontainer p {
 font-size: 75px;
 font-style: normal;
@@ -189,4 +195,9 @@ flex-shrink: 0;
 
 .technicalskills p{
     font-size: 50px;
+}
+
+.languages p{
+    font-size: 50px;
+
 }
