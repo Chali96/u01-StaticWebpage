@@ -168,3 +168,11 @@ line-height: 35px; /* 116.667% */
  margin: 10px;
 
 }
+
+.skillscontainer{
+    background-image: url(Bilder/skillsimage.png);
+    width: 1096px;
+height: 800px;
+background-repeat: no-repeat;
+margin: auto;
+}
