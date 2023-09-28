@@ -284,6 +284,10 @@ margin-bottom: 100px;
         padding: 10px;
 }
 
+.fa:hover{
+    color: rgba(227, 80, 173, 0.478);
+}
+
 
 
 
