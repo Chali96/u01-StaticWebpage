@@ -25,6 +25,11 @@ height: 43px;
 padding-left: 40%;
 padding-bottom: 20px;}
 
+.header hr {
+    width: 932px;
+
+}
+
 hr{
     width: 1280px;
     background: #FFF;
@@ -255,6 +260,7 @@ height: 832px;
     height: 36px;
     font-family: Newsreader;
     font-size: 80px;
+    margin-bottom: 200px;
 }
 
 .footercontainer hr {
@@ -262,7 +268,7 @@ height: 832px;
 }
 
 .footerhr{
-   margin-top: 100px;
+   margin-top: 50px;
 }
 
 
