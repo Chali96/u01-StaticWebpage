@@ -229,25 +229,20 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 832px;
 }
 
-.textimgcontainer{
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-
-.textimgcontainer  {
+.textimgcontainer {
 height: 850px;
 opacity: 0.5;
 background-repeat: no-repeat;
 background-image: url(Bilder/image1.jpeg);
 background-position: center;
+margin: auto;
 
 }
 
 .footertext{
     display: flex;
     flex-direction: column;
-    margin-right: 300px;
+    margin-left: 50px;
 }
 
 .footertext p {
