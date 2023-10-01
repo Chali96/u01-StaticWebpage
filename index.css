@@ -250,6 +250,12 @@ background-position: center;
     text-shadow: 4px 4px #000000;
 }
 
+.footertext a {
+    color: rgba(255, 251, 251, 0.971);
+    font-size: 40px;
+    text-shadow: 4px 4px #000000;
+}
+
 .footercontainer h1 {
     width: 1116px;
     height: 6px;
