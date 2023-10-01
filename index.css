@@ -237,24 +237,27 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   gap: 30px;
 }
 
-.textimgcontainer img {
+.textimgcontainer  {
 max-width: 600px;
 height: 850px;
-margin-bottom: 100px;
-opacity: 0.5;
-box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+margin-left: 200px;
+opacity: 0.6;
+background-repeat: no-repeat;
+box-shadow: 0 1px 1px 0 black;
+background-image: url(Bilder/image1.jpeg);
 
 }
 
 .footertext{
     display: flex;
     flex-direction: column;
-    color: rgba(255, 255, 255, 0.50);
+    margin-left: 300px;
 }
 
 .footertext p {
+    color: rgba(255, 251, 251, 0.971);
     font-size: 40px;
+    text-shadow: 4px 4px #000000;
 }
 
 .footercontainer h1 {
@@ -267,7 +270,7 @@ box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footercontainer hr {
-    width: 160px;
+    width: 150px;
     margin-left: 1px;
 }
 
@@ -278,10 +281,12 @@ box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 .footericons a {
 
         font-size: 60px;
-        color: rgba(210, 210, 210, 0.478);
+        color: rgba(255, 251, 251, 0.971);
         margin-top: 30respx;
         padding: 10px;
-}
+        text-shadow: 4px 4px #000000;
+    
+    }
 
 .fa:hover{
     color: rgba(227, 80, 173, 0.478);
