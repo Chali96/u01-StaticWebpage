@@ -152,7 +152,6 @@ line-height: 35px; /* 116.667% */
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
-    max-width: 1000px;
     height: auto;
     padding: 7%;   
 }
@@ -167,11 +166,10 @@ line-height: 35px; /* 116.667% */
 }
 
 .container div {
-    border: 3px solid #ffffff;
+    border: 3px solid #726f6f85;
     background: rgba(217, 217, 217, 0.01);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 1px;
-    padding-bottom: 100px;
+    padding: 10px;
     margin: 8px;
 
 }
@@ -185,14 +183,11 @@ line-height: 35px; /* 116.667% */
 }
 
 .container p {
-    color: #FFF;
+    color: rgba(255, 251, 251, 0.79);
 text-align: center;
-font-size: 20px;
-
+font-size: 15px;
+line-height: 20px; 
 }
-
-
-
 
 
 
