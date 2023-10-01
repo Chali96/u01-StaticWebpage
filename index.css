@@ -235,7 +235,6 @@ opacity: 0.5;
 background-repeat: no-repeat;
 background-image: url(Bilder/image1.jpeg);
 background-position: center;
-margin: auto;
 
 }
 
@@ -282,7 +281,7 @@ margin: auto;
     }
 
 .fa:hover{
-    color: rgba(227, 80, 173, 0.478);
+    color: rgba(227, 140, 195, 0.666);
 }
 
 .lasthr {
