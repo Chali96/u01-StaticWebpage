@@ -108,17 +108,14 @@ flex-shrink: 0;
 }
 
 .heading{
-    text-align: center;
+    text-align: left;
     font-size: 65px;
-    line-height: 20px; /* 30.769% */ 
-    width: 512px;
-height: 40px;
-flex-shrink: 0;
-
+    color: rgba(231, 231, 223, 0.833);
 }
+
 .aboutmetext{
     width: 277px;
-height: 360px;
+   height: 360px;
 font-size: 30px;
 line-height: 35px; /* 116.667% */
 }
