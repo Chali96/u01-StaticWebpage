@@ -26,9 +26,10 @@ padding-left: 40%;
 padding-bottom: 20px;}
 
 .header hr {
-    width: 932px;
-
+    width: 800px;
+    height: 1px;
 }
+
 
 hr{
     width: 1280px;
