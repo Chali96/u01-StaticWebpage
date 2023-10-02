@@ -130,6 +130,8 @@ line-height: 35px; /* 116.667% */
     position: relative;
     top: 150px;
     left: 90px;
+    opacity: 0.6;
+    transition: 1.8s;
 }
 
 .aboutmeimage2{
@@ -137,6 +139,13 @@ line-height: 35px; /* 116.667% */
     top: -30px;
     left: 50px;
 }
+
+.aboutmeimage1:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
 
 
 .section1 hr{
