@@ -172,11 +172,9 @@ line-height: 35px; /* 116.667% */
 }
 
 .container img:hover{
-    opacity: 1;
     transform: scale(1.4); /* Zoom in on the hovered image */
-    transition: transform 2s, opacity 10s; /* Animation */
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.631), 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
+    transition: transform 3.5s; /* Animation */
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.763), 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .container p {
