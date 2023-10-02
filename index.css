@@ -146,7 +146,9 @@ line-height: 35px; /* 116.667% */
     transform: scale(1.1);
 }
 
-
+main{
+    margin-top: 50px;
+}
 
 .section1 hr{
     width: 1px;
