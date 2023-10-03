@@ -340,6 +340,10 @@ th:hover {
     background: #9e707047;
 }
 
+.skills, .langauge, .precentage, .fluency{
+    font-size: 45px;
+    color: #161212c9;
+}
 
 
   
