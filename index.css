@@ -304,6 +304,18 @@ opacity: 0.8;
 
 
 /* the Table styling */
+div h2 {
+    width: 1116px;
+    height: 180px;
+    letter-spacing: 2px;
+    font-size: 80px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    color: rgba(255, 251, 251, 0.644);
+    text-shadow: 4px 4px #1c1b1b94;
+    margin: auto;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
