@@ -304,5 +304,23 @@ opacity: 0.8;
 
 
 /* the Table styling */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(123, 111, 99, 0.425);
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+tr:hover {
+    background-color: #552e2e;
+  }
 
-
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
