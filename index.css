@@ -221,64 +221,8 @@ line-height: 20px;
 }
 
 
-.skillscontainer{
-    background-image: url(Bilder/skillsimage.png);
-    width: 1096px;
-height: 800px;
-background-repeat: no-repeat;
-margin: auto;
-}
 
-.techlang-container{
-    display: flex;
-    flex-direction: row;
-   gap: 500px;
-}
 
-.skillscontainer p {
-font-size: 75px;
-font-style: normal;
-font-weight: 400;
-line-height: 15px; /* 20% */
-width: auto;
-height: 136px;
-}
-
-.techheading p{
-    font-size: 40px;
-}
-
-.languages p{
-    font-size: 20px;
-
-}
-
-.technicalskills p{
-    font-size: 20px;
-    width: auto;
-    height: 40px;
-}
-
-.p1 div{
-    border-radius: 10px;
-    border: 1px solid #000;
-    background: rgba(217, 217, 217, 0.50);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 206px;
-    height: 31px;
-flex-shrink: 0;
-}
-
-.p1 div div {
-    
-width: 100px;
-height: 23px;
-flex-shrink: 0;
-border-radius: 10px;
-border: 1px solid rgba(168, 16, 16, 0.50);
-background: rgba(255, 182, 182, 0.50);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
 .footercontainer{
     height: auto;
     display: flex;
