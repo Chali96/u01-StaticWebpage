@@ -310,12 +310,14 @@ table {
     width: 1200px;
     background-color: rgba(123, 111, 99, 0.425);
     color: #ddddddc9;
+    font-size: 35px;
+    margin: auto;
   }
   
   td, th {
     border: 4px solid #281f1f;
     text-align: left;
-    padding: 30px;
+    padding: 50px;
   }
   
 th:hover {
@@ -326,9 +328,6 @@ th:hover {
     background: #9e707047;
 }
 
-
-
-/*Ask why i cant hover over the th elements*/
 
 
   
