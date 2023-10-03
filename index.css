@@ -309,6 +309,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     background-color: rgba(123, 111, 99, 0.425);
+    color: #ddddddc9;
   }
   
   td, th {
@@ -317,10 +318,16 @@ table {
     padding: 8px;
   }
   
-tr:hover {
-    background-color: #552e2e;
+th:hover {
+    background-color: #e072b2;
   }
 
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+  th:nth-child(even) {
+    background: #9e707047;
+}
+
+
+/*Ask why i cant hover over the th elements*/
+
+
+  
