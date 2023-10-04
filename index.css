@@ -356,6 +356,8 @@ height: 574px;
 border-radius: 10px;
 border: 2px solid rgba(0, 0, 0, 0.30);
 box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.471), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin-left: 60px;
+
 }
 
 input[type=text], input[type=EMAIL], select, textarea {
