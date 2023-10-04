@@ -309,7 +309,7 @@ div h2 {
     width: 1116px;
     height: 180px;
     letter-spacing: 2px;
-    font-size: 80px;
+    font-size: 70px;
     padding-top: 80px;
     padding-bottom: 100px;
     color: rgba(255, 251, 251, 0.644);
@@ -322,14 +322,14 @@ table {
     border-collapse: collapse;
     background-color: rgba(188, 182, 182, 0.145);
     color: #f8e8e8c9;
-    font-size: 35px;
+    font-size: 25px;
     margin: auto;
   }
   
   td, th {
     border: 10px solid #281f1f99;
     text-align: left;
-    padding: 40px;
+    padding: 10px;
   }
   
 th:hover {
@@ -355,7 +355,7 @@ th:hover {
 height: 574px;
 border-radius: 10px;
 border: 2px solid rgba(0, 0, 0, 0.30);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.471), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 input[type=text], input[type=EMAIL], select, textarea {
