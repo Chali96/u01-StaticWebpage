@@ -29,6 +29,7 @@ text-shadow: 4px 4px #6c6262cb;
 .header hr {
     width: 800px;
     height: 2px;
+
 }
 
 hr{
@@ -61,6 +62,7 @@ button:hover{
 .headernav{
     padding-left: 15%;  
     margin: 10px;
+
 }
 
 .header {
@@ -228,6 +230,8 @@ line-height: 20px;
     display: flex;
   flex-direction: row;
     margin-top: 40px;
+    position: relative;
+
 }
 
 .footerimage {
@@ -354,8 +358,10 @@ th:hover {
 height: 574px;
 border-radius: 10px;
 border: 2px solid rgba(0, 0, 0, 0.30);
-box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.471), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.522), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 margin-left: 60px;
+position: absolute;
+opacity: 0.8;
 
 }
 
@@ -389,11 +395,15 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
   .contact-container{
     width: 517px;
-height: 736px;
+    height: 736px;
     border-radius: 20px;
-border: 3px solid rgba(0, 0, 0, 0.50);
-background: #9098DD;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 3px solid rgba(0, 0, 0, 0.50);
+    background-color: #3a3232f9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.522), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 650px;
+    margin-top: 20px;
+    opacity: 0.9;
+
   }
 
  
