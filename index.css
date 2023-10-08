@@ -443,7 +443,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
   /* Responsive for mobile phone */
   @media (max-width: 844px) {
     body {
-       background-color: #99b1a5;
+
+background-color: #99b1a5;
     }
 
     /*Header responsive*/
@@ -501,5 +502,51 @@ height: auto;
     display: none;
 }
 
-    
+
+
+/*Section 2*/
+.container{
+    display: flex;
+    flex-direction: column; 
+       
+}
+
+.container img{
+    width: 800px;
+    height: 750px;
+    opacity: 1;
+}
+
+
+/* Section 3 */
+
+div h2 {
+    width: auto;
+    height: auto;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: rgba(255, 251, 251, 0.644);
+    margin-left: 300px;
+}
+
+table {
+    color: #f8e8e8c9;
+    font-size: 20px;
+    margin-left: 300px;
+  }
+
+
+  td, th {
+    border: 5px solid #281f1f99;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .skills, .langauge, .precentage, .fluency{
+    font-size: 25px;
+    color: #f8e8e8c9;
+    background-color: #493d3da8;
+}
+
+
   }
