@@ -274,15 +274,6 @@ th:hover {
   flex-direction: row;
     margin-top: 150px;
     position: relative;
-
-}
-
-.footerimage {
-height: 800px;
-background-repeat: no-repeat;
-background-image: url(Bilder/image1.png);
-background-position: center;
-opacity: 0.8;
 }
 
 
@@ -590,5 +581,32 @@ table {
     background-color: #493d3da8;
 }
 
+/* Footer Container */
+.footercontainer{
+    height: auto;
+    display: flex;
+  flex-direction: column;
+}
+
+.form-container{
+    background-color: #c9bbbbd7;
+    padding: 100px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.30);
+  opacity: 1;
+  margin-left: 150px;
+  
+  }
+
+  .contact-container{
+    width: 817px;
+    height: 736px;
+    border-radius: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.50);
+    background-color: #3a3232f9;
+    margin-left: 170px;
+    margin-top: 850px;
+    opacity: 0.9;
+  }
 
   }
