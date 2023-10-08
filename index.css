@@ -1,5 +1,5 @@
 body {
-    background: #4b413ef3;
+    background: #1b1f1d;
     max-width: 1280px;
     margin: auto;
 }
@@ -41,8 +41,7 @@ hr{
  button{
     width: 182px;
     height: 36px;
-    background-color: rgba(90, 76, 83, 0.798);
-    mix-blend-mode: multiply;
+    background-color: rgb(255, 255, 255);
     filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.667));
     border-radius: 50px;
     margin: 5px;
@@ -50,18 +49,19 @@ hr{
 
 
 button:hover{
-    background-color: rgba(25, 10, 10, 0.725);
+    background-color: rgba(165, 114, 114, 0.725);
 }
 
  a {
-    color: #ffffff;
+    color: #000000;
     font-size: 25px;
     text-decoration: none;
 }
 
 .headernav{
-    padding-left: 15%;  
+    padding-left: 13%;  
     margin: 10px;
+    margin-top: 70px;
 
 }
 
@@ -69,28 +69,28 @@ button:hover{
     background-image: url(Bilder/headerimage.jpeg);
     background-repeat: no-repeat;
     margin: 20px;
-    opacity: 0.7;
-
+opacity: 0.7;
 }
 
 .headerline{
-    background: #4b413ef3;
+    background: #1b1f1d;
     width: 1100px;
     height: 80px;
+    margin-top: 20px;
 }
 
 
 h1 {
     width: 1096px;
 height: 1235px;
-color: white;
-font-size: 120px;
+color: rgb(255, 255, 255);
+font-size: 70px;
 font-weight: 500;
 line-height: 100px; /* 22.727% */
-letter-spacing: 10px;
-padding-top: 200px;
-padding-left:20px;
-text-shadow: 4px 4px #6c6262cb;
+letter-spacing: 7px;
+padding-top: 220px;
+padding-left:100px;
+text-shadow: 15px 10px #000000;
 }
 
 
@@ -401,10 +401,19 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
     background: rgba(188, 171, 171, 0.499);
 
  }
+
+ .form-container h3{
+    font-size: 30px;
+ }
  
 
   /*The contact container*/
 
+  .contact-container h3{
+    color: rgba(255, 251, 251, 0.693);
+    font-size: 30px;
+
+  }
   .contact-container{
     width: 517px;
     height: 736px;
@@ -430,4 +439,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
     gap: 40px;
   }
   
-  
+
+  /* Responsive for mobile phone */
+  @media screen (max-width: 844px) {
+    
+    
+  }
