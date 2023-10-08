@@ -498,6 +498,23 @@ margin-bottom: 200px;
 
 }
 
+.heading {
+    font-size: 80px;
+    margin-bottom: 150px;
+    width: 800px;
+}
+
+.aboutmetext{
+    font-size: 60px;
+    line-height: 60px;
+    width: 800px;
+}
+
+.aboutme-container img {
+    opacity: 1;
+    width: 800px;
+}
+
 .section1hr{
     display: none;
 }
