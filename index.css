@@ -512,8 +512,7 @@ display: none;
 
   @media (max-width: 844px) {
     body {
-        background-color: #416653;
-        
+        background:  #5e574e; /* Replace the colors with your desired gradient */
     }
 
     p {
@@ -526,7 +525,7 @@ display: none;
     .navbar-title{
         display: flex;
         flex-direction: column;
-        background: linear-gradient(to right, #6c9882, #703838); /* Replace the colors with your desired gradient */
+        background: linear-gradient(to left, #877f78, #393030); /* Replace the colors with your desired gradient */
         width: 800px;
         height: 850px;
         margin-left: 200px;
@@ -760,6 +759,7 @@ table {
     padding-left: 600px;
   }
   
+}
 
     
   
