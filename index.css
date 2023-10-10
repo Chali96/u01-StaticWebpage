@@ -334,16 +334,20 @@ th:hover {
 
 .footericons a {
 
-        font-size: 60px;
+        font-size: 80px;
         color: rgba(255, 251, 251, 0.693);
-        margin-top: 30respx;
         padding: 10px;
         text-shadow: 4px 4px #000000;
+        text-decoration: none;
     
     }
 
 .fa:hover{
     color: rgba(227, 140, 195, 0.666);
+}
+
+.fa p {
+    display: none;
 }
 
 .lasthr {
