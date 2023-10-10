@@ -501,14 +501,17 @@ display: none;
 
  
   /*Youtube video styling*/
+
+
   .youtube-video{
     max-width: 1280px;
+  }
+
+  div iframe{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 40px;
+    margin: 30px;
+    margin-left: 400px;
   }
   
 
