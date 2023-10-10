@@ -1,5 +1,5 @@
 body {
-    background: #1b1f1d;
+    background: linear-gradient(to right, #000000, #5e574e); /* Replace the colors with your desired gradient */
     max-width: 1280px;
     margin: auto;
 }
@@ -341,7 +341,7 @@ th:hover {
 }
 
 
-/*The Formi styling */
+/*The Form styling */
 
 .form-container{
   background-color: #c9bbbbd7;
@@ -419,45 +419,33 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
   /* back to the navbar arrow*/
   .fa-arrow-up {
-    /* Customize the icon's appearance */
-    font-size: 54px;
-    margin-right: 5px;
-    color: white;
+    color: rgb(255, 221, 221);
+    position: fixed;
+    bottom: 0;
+    left: 1px;
+    width: 30px;
+    border: 4px solid #5cd909;
 }
 
 
 
 
-
+/* The monile navbar*/
 .hamburger, .close {
     border: none;
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
     top: 20px;
-    right: 20px;
-    width: 36px;
-    height: 36px;
+    right: 200px;
     display: none;
   }
   
-  .hamburger {
-    background: white;
-    display: none;
-
-  }
-  
-  .close {
-    background: black;
-    display: none;
-
-  }
-  
+ 
   .hamburger img, .close img {
-    width: 100%;
-    height: 100%;
-    display: none;
-
+    width: 300px;
+    height: 300px;
+display: none;
   }
   
   .navbar {
@@ -486,7 +474,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
   .navbar:target {
     /* show navbar */
     transform: translateY(0);
-    display: none;
 
   }
   
@@ -495,20 +482,16 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 30px;
     /* remove default underline and add our own with padding and border bottom */
     text-decoration: none;
     border-bottom: 1px solid black;
     padding-bottom: 0.5rem;
-    display: none;
 
   }
-  
-  li a:hover, li a:focus {
-    /* show border bottom */
-    border-bottom: 1px solid white;
-    display: none;
 
+  .navbar-title {
+    display: none;
   }
 
 
@@ -526,10 +509,11 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
   
 
   /* Responsive for mobile phone */
-  @media (max-width: 844px) {
 
+  @media (max-width: 844px) {
     body {
-        background-color: #99b1a5;
+        background-color: #416653;
+        
     }
 
     p {
@@ -539,138 +523,82 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
     /*Header responsive*/
 
-    .hamburger, .close {
-        border: none;
-        cursor: pointer;
-        /* position absolute position the icons relative to the body because they have no position relative parents*/
-        position: absolute;
-        top: 20px;
-        left: 200px;
-        width: 36px;
-        height: 36px;
-        display: block;
-      }
-
-
-      
-      
-      .close {
-        background: black;
-        display: block;
-
-      }
-      
-      .hamburger img, .close img {
-        width: 200px;
-        height: 200px;
-        display: block;
-
-      }
-      
-      .navbar {
-        position: absolute;
-        /* a higher z-index put navbar above hamburger */
-        z-index: 1000;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        /* basic menu styling*/
-        list-style: none;
-        background: black;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-evenly;
-        align-items: center;
-        /* animate slide up/down */
-        transform: translateY(-100%);
-        transition: transform 0.2s ease;
-        display: block;
-      }
-      
-      /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
-      
-      .navbar:target {
-        /* show navbar */
-        transform: translateY(0);
-        display: block;
-
-      }
-      
-      li a {
-        display: block;
-        font-family: 'Open Sans', sans-serif;
-        color: white;
-        font-weight: bold;
-        font-size: 1.2rem;
-        /* remove default underline and add our own with padding and border bottom */
-        text-decoration: none;
-        border-bottom: 1px solid black;
-        padding-bottom: 0.5rem;
-        display: block;
-
-      }
-      
-      li a:hover, li a:focus {
-        /* show border bottom */
-        border-bottom: 1px solid white;
-        display: block;
-
-      }
-
-  .header {
-        background-image: none;
-        background-repeat: no-repeat;
-        width: 800px;
-    opacity: 0.9;
-    display: none;
-    }
-
-/*
-    .headernav{
+    .navbar-title{
         display: flex;
         flex-direction: column;
-        padding-left: 300px;
-        gap: 30px;
-    
+        background: linear-gradient(to right, #6c9882, #703838); /* Replace the colors with your desired gradient */
+        width: 800px;
+        height: 850px;
+        margin-left: 200px;
+      }
+
+    .navbar-title p  {
+        text-align: right;
     }
     
+.hamburger, .close {
+    border: none;
+    cursor: pointer;
+    /* position absolute position the icons relative to the body because they have no position relative parents*/
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+    display: block;
+  }
   
+ 
+  .hamburger img, .close img {
+    width: 200px;
+    height: 200px;
+display: block;
+  }
 
-h1{
-    font-size: 60px;
-    margin-left: 200px;
-    padding-top: 90px;
-    text-shadow: none;
+  .navbar {
+    position: absolute;
+    /* a higher z-index put navbar above hamburger */
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 600px;
+    /* basic menu styling*/
+    list-style: none;
+    background: linear-gradient(to right, #393a27, #cadfb1); /* Replace the colors with your desired gradient */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* animate slide up/down */
+    transform: translateY(-100%);
+    transition: transform 0.7s ease;
+
 }
+  
+  /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
 
 
-
-.header p {
-font-size: 30px;
-line-height: 30px;
-text-align: left;
-text-shadow: none;
-}
-
-.headerline{
-    display: none;
-}
-
-
-button{
-    width: 802px;
-    height: 86px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    margin: 5px;
-}
-
-a {
-    color: #000000;
-    font-size: 40px;
+  
+  li a{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    /* remove default underline and add our own with padding and border bottom */
     text-decoration: none;
-} */
+    padding-bottom: 5rem;
+    padding-top: 40px;
+
+  }
+
+  .headerbody{
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+ 
+
 
 
 
@@ -832,4 +760,6 @@ table {
     padding-left: 600px;
   }
   
-  }
+
+    
+  
