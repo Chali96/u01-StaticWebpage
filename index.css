@@ -62,7 +62,10 @@ button:hover{
     padding-left: 13%;  
     margin: 10px;
     margin-top: 70px;
+}
 
+.headernav form{
+    display: inline;
 }
 
 .header {
