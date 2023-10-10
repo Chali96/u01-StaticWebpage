@@ -510,8 +510,9 @@ display: none;
   div iframe{
     display: flex;
     flex-direction: column;
-    margin: 30px;
-    margin-left: 400px;
+    margin: 100px;    
+    width: 1000px;
+    height: 1000px;
   }
   
 
