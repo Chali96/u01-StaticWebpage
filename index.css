@@ -67,6 +67,7 @@ button:hover{
 
 .header {
     background-image: url(Bilder/headerimage.jpeg);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.763), 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-repeat: no-repeat;
     margin: 20px;
 opacity: 0.7;
@@ -74,9 +75,12 @@ opacity: 0.7;
 
 .headerline{
     background: linear-gradient(to right, #000000, #5e574e); /* Replace the colors with your desired gradient */
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.839), 10px 4px 4px 0px rgba(0, 0, 0, 0.72);
+
     width: 1100px;
     height: 80px;
     margin-top: 20px;
+
 }
 
 
@@ -424,7 +428,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
     bottom: 0;
     left: 1px;
     width: 30px;
-    border: 4px solid #5cd909;
+    border: 4px solid #de91c79d;
 }
 
 
