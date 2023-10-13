@@ -1,7 +1,8 @@
 body {
     background: linear-gradient(to right, #000000, #5e574e); /* Replace the colors with your desired gradient */
-    max-width: 1280px;
+    width: 1280px;
     margin: auto;
+    padding: auto;
 }
 
 
@@ -65,7 +66,7 @@ button:hover{
 .headernav{
     padding-left: 13%;  
     margin: 10px;
-    margin-top: 70px;
+    padding-top: 20px;
 }
 
 .headernav form{
@@ -536,6 +537,8 @@ display: none;
 
     p {
         color: white;
+        font-size: 60px;
+        line-height: 150px;
 
     }
 
@@ -689,15 +692,15 @@ margin-bottom: 200px;
 
 .heading {
     font-size: 80px;
-    margin-top: 150px;
-    width: 800px;
+    margin-top: 50px;
+    width: auto;
     color: white;
 }
 
 .aboutmetext{
     font-size: 60px;
-    line-height: 60px;
-    width: 800px;
+    width: 840px;
+    line-height: 80px;
 }
 
 .aboutme-container img {
@@ -716,6 +719,7 @@ margin-bottom: 200px;
 
 
 /*Section 2*/
+
 
 .section2{
     padding-left: 150px;
@@ -742,15 +746,15 @@ margin-bottom: 200px;
 
 .container div a p {
     color: rgba(255, 251, 251, 0.79);
-    font-size: 50px;
-    text-decoration: underline;
+    font-size: 80px;
+    text-decoration: none;
 }
 
 .container p {
     color: rgba(255, 251, 251, 0.79);
     text-align: center;
-    font-size: 45px;
-    line-height: 40px; 
+    font-size:65px;
+    line-height: 70px; 
 }
 
 
@@ -764,6 +768,7 @@ div h2 {
     color: white;
     margin-left: 300px;
 }
+
 
 .table {
     color: #fdfdfd;
