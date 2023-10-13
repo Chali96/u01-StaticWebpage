@@ -5,6 +5,8 @@ body {
 }
 
 
+/* The header */
+
 .headerbody{
     display: flex;
     flex-direction: row;
@@ -13,7 +15,9 @@ body {
     height: 832px;
     max-width: 1280px;
 }
-
+.mobilenav input{
+    display: none;
+}
 header p {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -86,7 +90,6 @@ opacity: 0.7;
 
 }
 
-
 .header h1 {
     width: 1096px;
 height: 1235px;
@@ -100,7 +103,7 @@ padding-left:100px;
 text-shadow: 15px 10px #000000;
 }
 
-
+/* Section 1 */
 .section1{
     display: flex;
     flex-direction: row;
@@ -110,7 +113,6 @@ text-shadow: 15px 10px #000000;
     height: 832px;
     padding: 7%;    
 }
-
 
  p {
     color: rgba(231, 231, 223, 0.675);
@@ -161,15 +163,13 @@ line-height: 35px; /* 116.667% */
     margin-top: 100px;
 }
 
-main{
-    margin-top: 50px;
-}
-
 .section1 hr{
     width: 1px;
     height: 832px; 
 }
 
+
+/* Section 2*/
 .section2{
     display: flex;
     flex-direction: column;
@@ -275,8 +275,8 @@ th:hover {
     background-color: #493d3da8;
 }
 
-/*The footer container*/
 
+/*The footer container*/
 .footercontainer{
     height: auto;
     display: flex;
@@ -284,8 +284,6 @@ th:hover {
     margin-top: 150px;
     position: relative;
 }
-
-
 
 .footertext{
     display: flex;
@@ -304,7 +302,6 @@ th:hover {
     font-size: 40px;
     text-shadow: 4px 4px #1c1b1b94;
 }
-
 
 .footertext p a:hover {
     color: rgba(227, 140, 195, 0.666);
@@ -470,9 +467,9 @@ display: none;
     display: none;
 }
  
+
+
   /*Youtube video styling*/
-
-
   .youtube-video{
     max-width: 1280px;
   }
@@ -618,16 +615,12 @@ display: block;
 }
 
 
-
-
-
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul
 {
   transform: none;
 }
+
+
 
 
 
