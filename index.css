@@ -13,7 +13,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-content: space-around;
-    height: 832px;
+    height: 800px;
     max-width: 1280px;
 }
 .mobilenav input{
@@ -77,8 +77,7 @@ button:hover{
     background-image: url(/Bilder/headerimage.jpeg);
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.763), 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-repeat: no-repeat;
-    margin: 20px;
-opacity: 0.7;
+    margin: 2px;
 }
 
 .headerline{
@@ -91,19 +90,24 @@ opacity: 0.7;
 }
 
 .header h1 {
-    width: 1096px;
+    width: auto;
 height: 1235px;
 color: rgb(255, 255, 255);
-font-size: 70px;
+font-size: 90px;
 font-weight: 500;
 line-height: 100px; /* 22.727% */
 letter-spacing: 7px;
-padding-top: 220px;
-padding-left:100px;
+padding-top: 450px;
+text-align: center;
 text-shadow: 15px 10px #000000;
 }
 
 /* Section 1 */
+#aboutme hr {
+    margin-top: 100px;
+    filter: blur(2px); /* Adjust the blur radius as needed */
+}
+
 .section1{
     display: flex;
     flex-direction: row;
