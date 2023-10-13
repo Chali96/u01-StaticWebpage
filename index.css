@@ -124,12 +124,6 @@ flex-shrink: 0;
     height: 40px;
 }
 
-.heading{
-    text-align: left;
-    font-size: 65px;
-    color: rgba(231, 231, 223, 0.833);
-}
-
 .aboutmetext{
     width: 277px;
    height: 360px;
@@ -186,6 +180,9 @@ main{
 }
 .heading{
     margin-top: 1px;
+    text-align: left;
+    font-size: 65px;
+    color: rgba(231, 231, 223, 0.833);
 }
 .container{
     display: flex;
@@ -452,66 +449,26 @@ display: none;
 
 
 /* The monile navbar*/
-.hamburger, .close {
-    border: none;
-    cursor: pointer;
-    /* position absolute position the icons relative to the body because they have no position relative parents*/
-    position: absolute;
-    top: 20px;
-    right: 200px;
+.menu {
     display: none;
-  }
+}
 
- 
- 
-  .hamburger img, .close img {
-    width: 300px;
-    height: 300px;
-display: none;
-  }
-  
-  .navbar {
-    position: absolute;
-    /* a higher z-index put navbar above hamburger */
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    /* basic menu styling*/
-    list-style: none;
-    background: black;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    /* animate slide up/down */
-    transform: translateY(-100%);
-    transition: transform 0.2s ease;
+.mobilenav h2{
     display: none;
-  }
-  
-  /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
-  
-  
-  li a {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    /* remove default underline and add our own with padding and border bottom */
-    text-decoration: none;
-    border-bottom: 1px solid black;
-    padding-bottom: 0.5rem;
+    max-width: 800px;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 90px; /* 22.727% */
+    letter-spacing: 7px;
+    padding-top: 220px;
+    padding-left:100px;
+    text-shadow: 15px 10px #000000;
+}
 
-  }
-
-  .navbar-title {
+.mobilenav p{
     display: none;
-  }
-
-
+}
  
   /*Youtube video styling*/
 
@@ -527,12 +484,16 @@ display: none;
     width: 1000px;
     height: 1000px;    
   }
+
+
   
 
   /* Responsive for mobile phone */
 
   @media (max-width: 844px) {
     body {
+        margin: 0;
+        padding: 0;
         background:  #5e574e; /* Replace the colors with your desired gradient */
     }
 
@@ -541,81 +502,136 @@ display: none;
 
     }
 
-    /*Header responsive*/
+    /*Hamburger menu for mobile*/
 
-    .navbar-title{
-        display: flex;
-        flex-direction: column;
-        background: linear-gradient(to left, #877f78, #393030); /* Replace the colors with your desired gradient */
-        width: 800px;
-        height: 850px;
-        margin-left: 200px;
-      }
-
-    .navbar-title p  {
-        text-align: right;
+    .mobilenav h2{
+        display: block;
+        text-align: left;
+        font-size: 105px;
+        color: rgba(212, 59, 179, 0.949);
+        text-shadow: #000000;
     }
     
- /* Common styles for both the hamburger and close icons */
- .hamburger, .close {
-    cursor: pointer;
-    display: none; /* Initially hidden */
+    .mobilenav p{
+        text-align: center;
+        display: block;
+        font-size: 30px;
+    }
+
+    
+ #menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
-/* Style the hamburger icon */
-.hamburger {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
 }
 
-/* Style the close icon */
-.close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; 
+  z-index: 2; 
+  -webkit-touch-callout: none;
 }
 
-/* Style the menu container */
-.navbar {
-    display: none; /* Initially hidden */
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #333; /* Change to your desired background color */
-    z-index: 1;
+
+#menuToggle span
+{
+  display: block;
+  width: 53px;
+  height: 8px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-/* Style the menu items */
-.navbar a {
-    display: block;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
 }
 
-/* Style the checkbox input (hidden) */
-#menuToggle {
-    display: none;
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
 }
 
-/* Style the hamburger icon when the checkbox is checked */
-#menuToggle:checked + .hamburger {
-    display: none;
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
 }
 
-/* Style the close icon when the checkbox is checked */
-#menuToggle:checked + .close {
-    display: block;
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/* Display the menu when the checkbox is checked */
-#menuToggle:checked + .hamburger + .navbar {
-    display: block;
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
 }
+
+#menu
+{
+display: block;
+  position: absolute;
+  width: 100%;
+  margin: -100px 0 0 -50px;
+  padding: 300px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.7s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 30px 0;
+  font-size: 42px;
+}
+
+
+
+
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+/*Hide the headerbody*/
 
   .headerbody{
     display: none;
