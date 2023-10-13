@@ -140,7 +140,7 @@ line-height: 35px; /* 116.667% */
 }
 
 .aboutmeimage1{
-    width: auto;
+    max-width: auto;
     height: auto;
     position: relative;
     top: 150px;
@@ -153,7 +153,7 @@ line-height: 35px; /* 116.667% */
     position: absolute;
     top: -30px;
     left: 50px;
-    width: auto;
+    max-width: auto;
     height: auto;
 }
 
