@@ -765,17 +765,18 @@ div h2 {
     margin-left: 300px;
 }
 
-table {
+.table {
     color: #fdfdfd;
     font-size: 20px;
-    margin-left: 300px;
-  }
+margin-left: 170px;  
+}
 
 
   td, th {
     border: 5px solid #281f1f99;
     text-align: left;
-    padding: 8px;
+    padding: 40px;
+    padding-right: 200px;
   }
 
   .skills, .langauge, .precentage, .fluency{
