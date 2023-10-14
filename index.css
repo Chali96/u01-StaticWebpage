@@ -1,9 +1,12 @@
 body {
-    background: linear-gradient(to right, #000000, #5e574e); /* Replace the colors with your desired gradient */
-    width: 1280px;
-    margin: auto;
+background-color: #3f3b33f7;    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
+.mobilenav input{
+    display: none;
+}
 
 /* The header */
 
@@ -12,83 +15,70 @@ body {
     flex-direction: row;
     justify-content: center;
     align-content: space-around;
-    height: 800px;
-    max-width: 1280px;
+    background: linear-gradient(to right, #c99292c1, #3f3b33); /* Replace the colors with your desired gradient */
 }
-.mobilenav input{
-    display: none;
-}
-header p {
-    color: #ffffff9a;
-font-size: 20px;
-width: 492px;
-height: 63px;
-margin-left: 30%;
-margin-top: 70px;
-text-shadow: 4px 4px #6c6262cb;
-}
+
 
 .header hr {
     width: 800px;
     height: 2px;
 }
 
-hr{
-    width: 1280px;
-    background: #FFF;
-    box-shadow: 4px 4px rgba(0.25);
-}
-
- form button{
-    width: 182px;
-    height: 36px;
-    background-color: rgba(255, 255, 255, 0.799);
-    filter: drop-shadow(1px 8px 4px #000000c0);
-    border-radius: 50px;
-    margin: 5px;
-}
-
-
-button:hover{
-    background-color: #A57272;
-}
-
- button {
-    color: #000000;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.headernav{
-    padding-left: 13%;  
-    margin: 10px;
-    padding-top: 20px;
-}
-
-.headernav form{
-    display: inline;
-}
-
 .header {
-    background-image: url(/Bilder/headerimage.jpeg);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.763), 10px 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background-repeat: no-repeat;
-    margin: 2px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
-.headerline{
-    background: linear-gradient(to right, #000000, #5e574e); /* Replace the colors with your desired gradient */
-    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.839), 10px 4px 4px 0 rgba(0, 0, 0, 0.72);
-    width: 1100px;
-    height: 80px;
-    margin-top: 20px;
+.header-img-container{
+    position: relative;
+    text-align: center;
+}
+
+.headernav ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+font-size: 40px;
+font-weight: 200;
+gap: 70px;
+color: #000000a5;
+left: 108px;
 
 }
+
+
+.header-img1{
+    position: absolute;
+width: 90%;
+border: 5px solid rgba(0, 0, 0, 0.20);
+right: 0.5vh;
+height: 40vh;
+}
+
+
+
+
+.header-img2{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: 49vh;
+    position: absolute;
+    top: 51vh;
+    left: 0.5vh;
+}
+
+
 
 div h1 {
     width: auto;
 height: 1235px;
-color: rgb(255, 255, 255);
+color: 000000;
 font-size: 90px;
 font-weight: 500;
 line-height: 100px; /* 22.727% */
@@ -97,6 +87,13 @@ margin-top: 450px;
 text-align: center;
 text-shadow: 15px 10px #000000;
 }
+
+
+
+
+/*New header*/
+
+
 
 /* Section 1 */
 #aboutme hr {
@@ -115,7 +112,7 @@ text-shadow: 15px 10px #000000;
 }
 
  p {
-    color: #e7e7df;
+    color: #000000;
 font-style: normal;
 font-weight: 400;
 flex-shrink: 0;
@@ -179,7 +176,7 @@ line-height: 35px; /* 116.667% */
     margin-top: 1px;
     text-align: left;
     font-size: 65px;
-    color: 	#e7e7dfc8;
+    color: 	#000000;
 }
 .container{
     display: flex;
@@ -208,14 +205,14 @@ line-height: 35px; /* 116.667% */
 }
 
 .container p {
-    color: 	#e7e7dfc8;
+    color: 	#000000;
 text-align: center;
 font-size: 15px;
 line-height: 20px; 
 }
 
 .container div a p {
-    color: 	#e7e7dfc8;
+    color: 	#000000;
     font-size: 20px;
     text-decoration: underline;
     box-shadow: inset 0 0 0 0 #221f2177;
@@ -238,7 +235,7 @@ div h2 {
     font-size: 60px;
     padding-top: 80px;
     padding-bottom: 100px;
-    color: 	#e7e7dfc8;
+    color: 	#000000;
     text-shadow: 4px 4px #1c1b1b94;
     margin-left: auto;
 }
@@ -247,7 +244,7 @@ div h2 {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     background-color: 	#4342406a;
-    color: #f8e8e8c9;
+    color: #000000;
     font-size: 25px;
     margin: auto;
   }
@@ -275,7 +272,7 @@ th:hover {
 
 .skills, .langauge, .precentage, .fluency{
     font-size: 45px;
-    color: #f8e8e8c9;
+    color: #000000;
     background-color: #493d3da8;
 }
 
