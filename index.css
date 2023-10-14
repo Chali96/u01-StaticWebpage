@@ -498,7 +498,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
     margin: auto;
     display: flex;
     flex-direction: row;
-padding-left: 150px;  }
+padding-left: 150px;
+}
 
   div iframe{
     width: 300px;
@@ -513,32 +514,42 @@ padding-left: 150px;  }
 
   @media (max-width: 844px) {
     body {
-        margin: 0;
-        padding: 0;
-        background:  #5e574e; /* Replace the colors with your desired gradient */
+        width: 100vw;
+        overflow-x: hidden;
+        background:  #000000; /* Replace the colors with your desired gradient */
     }
-
+*{
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+}
     p {
         color: white;
-        font-size: 60px;
-        line-height: 150px;
+        font-size: 30px;
+        line-height: 50px;
 
     }
 
     /*Hamburger menu for mobile*/
+    
+    #mobilnav{
+        background-image: url(Bilder/mobilnav-img.jpeg);
+        background-repeat: no-repeat;
+    }
 
     .mobilenav h2{
         display: block;
-        text-align: left;
-        font-size: 105px;
-        color: rgba(212, 59, 179, 0.949);
+        padding-left: 40px;
+        font-size: 50px;
+        color: rgba(206, 174, 115, 0.949);
         text-shadow: #000000;
+        padding-bottom: 8px;
     }
     
     .mobilenav p{
-        text-align: center;
         display: block;
-        font-size: 30px;
+        font-size: 20px;
+        padding-left: 170px;
     }
 
     
@@ -622,7 +633,7 @@ padding-left: 150px;  }
 {
 display: block;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   margin: -100px 0 0 -50px;
   padding: 300px;
   padding-top: 125px;
@@ -667,23 +678,22 @@ display: block;
 .section1{
     display: flex;
     flex-direction: column;
- padding-left: 250px;
-gap: 900px;
-height: auto;
-margin-bottom: 200px;
+ padding-left: 50px;
+ width: 100%;
+height: 1500px;
 }
 
 .heading {
-    font-size: 80px;
-    margin-top: 50px;
-    width: auto;
+    font-size: 40px;
     color: white;
 }
 
 .aboutmetext{
-    font-size: 60px;
-    width: 840px;
-    line-height: 80px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.amt-container{
 }
 
 .aboutme-container img {
@@ -705,16 +715,16 @@ margin-bottom: 200px;
 
 
 .section2{
-    padding-left: 150px;
+    padding-left: 2px;
 }
 .container{
     display: flex;
     flex-direction: column; 
+    width: 50%;
 }
 
 .container img{
-    width: 800px;
-    height: 750px;
+    width: 70%;
     opacity: 1;
 }
 
@@ -729,15 +739,24 @@ margin-bottom: 200px;
 
 .container div a p {
     color: rgba(255, 251, 251, 0.79);
-    font-size: 80px;
+ font-size: 40px;
     text-decoration: none;
+    list-style: none;
+    width: fit-content;
 }
+
 
 .container p {
     color: rgba(255, 251, 251, 0.79);
     text-align: center;
-    font-size:65px;
-    line-height: 70px; 
+    font-size: 25px;
+    line-height: 40px;
+    width: 300px;
+}
+
+.heading{
+    font-size: 30px;
+    padding-left: 40px;
 }
 
 
