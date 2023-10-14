@@ -2,7 +2,6 @@ body {
     background: linear-gradient(to right, #000000, #5e574e); /* Replace the colors with your desired gradient */
     width: 1280px;
     margin: auto;
-    padding: auto;
 }
 
 
@@ -11,7 +10,7 @@ body {
 .headerbody{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: space-around;
     height: 800px;
     max-width: 1280px;
@@ -20,41 +19,38 @@ body {
     display: none;
 }
 header p {
-    color: rgb(255, 255, 255);
-    text-align: center;
-font-size: 25px;
-line-height: 28px; /* 95.238% */
-width: 192px;
-height: 43px;
-padding-left: 40%;
-padding-bottom: 20px;
+    color: #ffffff9a;
+font-size: 20px;
+width: 492px;
+height: 63px;
+margin-left: 30%;
+margin-top: 70px;
 text-shadow: 4px 4px #6c6262cb;
 }
 
 .header hr {
     width: 800px;
     height: 2px;
-
 }
 
 hr{
     width: 1280px;
     background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px rgba(0.25);
 }
 
  form button{
     width: 182px;
     height: 36px;
-    background-color: rgb(255, 255, 255);
-    filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.667));
+    background-color: rgba(255, 255, 255, 0.799);
+    filter: drop-shadow(1px 8px 4px #000000c0);
     border-radius: 50px;
     margin: 5px;
 }
 
 
 button:hover{
-    background-color: rgba(165, 114, 114, 0.725);
+    background-color: #A57272;
 }
 
  button {
@@ -75,21 +71,21 @@ button:hover{
 
 .header {
     background-image: url(/Bilder/headerimage.jpeg);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.763), 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.763), 10px 4px 4px 0 rgba(0, 0, 0, 0.25);
     background-repeat: no-repeat;
     margin: 2px;
 }
 
 .headerline{
     background: linear-gradient(to right, #000000, #5e574e); /* Replace the colors with your desired gradient */
-    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.839), 10px 4px 4px 0px rgba(0, 0, 0, 0.72);
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.839), 10px 4px 4px 0 rgba(0, 0, 0, 0.72);
     width: 1100px;
     height: 80px;
     margin-top: 20px;
 
 }
 
-.header h1 {
+div h1 {
     width: auto;
 height: 1235px;
 color: rgb(255, 255, 255);
@@ -97,7 +93,7 @@ font-size: 90px;
 font-weight: 500;
 line-height: 100px; /* 22.727% */
 letter-spacing: 7px;
-padding-top: 450px;
+margin-top: 450px;
 text-align: center;
 text-shadow: 15px 10px #000000;
 }
@@ -105,7 +101,7 @@ text-shadow: 15px 10px #000000;
 /* Section 1 */
 #aboutme hr {
     margin-top: 100px;
-    filter: blur(2px); /* Adjust the blur radius as needed */
+    filter: blur(2px); 
 }
 
 .section1{
@@ -115,18 +111,18 @@ text-shadow: 15px 10px #000000;
     align-content: space-around;
     max-width: 1000px;
     height: 832px;
-    padding: 7%;    
+    margin: 9%;    
 }
 
  p {
-    color: rgba(231, 231, 223, 0.675);
+    color: #e7e7df;
 font-style: normal;
 font-weight: 400;
 flex-shrink: 0;
 }
 
 .section1 p{
-    width: 412;
+    width: 312px;
     height: 40px;
 }
 
@@ -144,10 +140,9 @@ line-height: 35px; /* 116.667% */
 }
 
 .aboutmeimage1{
-    max-width: auto;
-    height: auto;
+    max-width: 500px;
     position: relative;
-    top: 150px;
+    top: 250px;
     left: 90px;
     opacity: 0.6;
     transition: 3.8s;
@@ -155,10 +150,8 @@ line-height: 35px; /* 116.667% */
 
 .aboutmeimage2{
     position: absolute;
-    top: -30px;
-    left: 50px;
-    max-width: auto;
-    height: auto;
+    top: 30px;
+    max-width: 600px;
 }
 
 .aboutmeimage1:hover{
@@ -186,7 +179,7 @@ line-height: 35px; /* 116.667% */
     margin-top: 1px;
     text-align: left;
     font-size: 65px;
-    color: rgba(231, 231, 223, 0.833);
+    color: 	#e7e7dfc8;
 }
 .container{
     display: flex;
@@ -200,8 +193,8 @@ line-height: 35px; /* 116.667% */
 
 .container div {
     border: 3px solid #726f6f85;
-    background: rgba(217, 217, 217, 0.01);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #d9d9d900;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25), 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
     padding: 10px;
     margin: 8px;
 }
@@ -209,20 +202,20 @@ line-height: 35px; /* 116.667% */
 .container img:hover{
     transform: scale(1.4); /* Zoom in on the hovered image */
     transition: transform 3.5s; /* Animation */
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.763), 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.763), 10px 4px 4px 0 rgba(0, 0, 0, 0.25);
     opacity: 1;
     
 }
 
 .container p {
-    color: rgba(255, 251, 251, 0.79);
+    color: 	#e7e7dfc8;
 text-align: center;
 font-size: 15px;
 line-height: 20px; 
 }
 
 .container div a p {
-    color: rgba(255, 251, 251, 0.79);
+    color: 	#e7e7dfc8;
     font-size: 20px;
     text-decoration: underline;
     box-shadow: inset 0 0 0 0 #221f2177;
@@ -245,7 +238,7 @@ div h2 {
     font-size: 60px;
     padding-top: 80px;
     padding-bottom: 100px;
-    color: rgba(255, 251, 251, 0.644);
+    color: 	#e7e7dfc8;
     text-shadow: 4px 4px #1c1b1b94;
     margin-left: auto;
 }
@@ -253,7 +246,7 @@ div h2 {
 .table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    background-color: rgba(188, 182, 182, 0.145);
+    background-color: 	#4342406a;
     color: #f8e8e8c9;
     font-size: 25px;
     margin: auto;
@@ -337,31 +330,21 @@ th:hover {
 }
 
 .footertext p {
-    color: rgba(255, 251, 251, 0.644);
+    color: #a39292;
     font-size: 40px;
     text-shadow: 4px 4px #1c1b1b94;
 }
 
 .footertext a {
-    color: rgba(197, 88, 155, 0.717);
+    color: #d0c9cd;
     font-size: 40px;
     text-shadow: 4px 4px #1c1b1b94;
 }
 
 .footertext p a:hover {
-    color: rgba(227, 140, 195, 0.666);
+    color: #9a616b;
 }
 
-.footercontainer h1 {
-    width: 1116px;
-    height: 6px;
-    letter-spacing: 2px;
-    font-size: 90px;
-    padding-top: 20px;
-    padding-bottom: 100px;
-    color: rgba(255, 251, 251, 0.644);
-    text-shadow: 4px 4px #1c1b1b94;
-}
 
 .footercontainer hr {
     width: 150px;
@@ -375,15 +358,14 @@ th:hover {
 .footericons a {
 
         font-size: 80px;
-        color: rgba(255, 251, 251, 0.693);
+        color: #e7e7dfc8;
         padding: 10px;
         text-shadow: 4px 4px #000000;
         text-decoration: none;
-    
     }
 
 .fa:hover{
-    color: rgba(227, 140, 195, 0.666);
+    color: #9a616b;
 }
 
 .fa p {
@@ -405,7 +387,7 @@ th:hover {
 height: 574px;
 border-radius: 10px;
 border: 2px solid rgba(0, 0, 0, 0.30);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.522), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.522), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 margin-left: 60px;
 position: absolute;
 opacity: 0.8;
