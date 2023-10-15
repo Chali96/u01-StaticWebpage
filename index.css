@@ -702,12 +702,9 @@ margin-top: 2px;
 
 .aboutme-container img {
     opacity: 1;
-    width: 800px;
+    width: fit-content;
 }
 
-.aboutmeimage1:hover{
-    display: none;
-}
 
 .section1hr{
     display: none;
@@ -805,22 +802,26 @@ margin-left: 170px;
 
 .form-container{
     background-color: #c9bbbbd7;
-    padding: 100px;
-  border-radius: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.30);
-  opacity: 1;
-  margin-left: 150px;
+    padding: 20px;
+    width: 500px;
+  height: 574px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.30);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.522), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 40px;
+  position: absolute;
+  opacity: 0.8;
   
   }
 
   .contact-container{
-    width: 817px;
-    height: 736px;
+    width: 517px;
+    height: 836px;
     border-radius: 20px;
     border: 3px solid rgba(0, 0, 0, 0.50);
     background-color: #3a3232f9;
-    margin-left: 170px;
-    margin-top: 850px;
+    margin-left: 70px;
+    margin-top: 580px;
     opacity: 0.9;
   }
 
