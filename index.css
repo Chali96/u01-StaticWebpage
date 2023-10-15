@@ -98,15 +98,15 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 .favicon2{
-    filter: brightness(50%);
-    opacity: 0.9;
+    filter: brightness(80%);
     padding-top: 10px;
     padding-left: 10px;
     position: fixed;
 }
 
 .favicon2:hover{
-    filter: brightness(70%);
+    filter: brightness(100%);
+    transform: scale(1.2); 
 }
 
 /*New header*/
@@ -331,11 +331,11 @@ th:hover {
 
 /*The footer container*/
 .footercontainer{
-    height: auto;
     display: flex;
   flex-direction: row;
     margin-top: 150px;
     position: relative;
+    margin-left: 100px;
 }
 
 .footertext{
@@ -398,7 +398,7 @@ th:hover {
 .form-container{
   background-color: #c9bbbbd7;
   padding: 20px;
-  width: 637px;
+  width: 500px;
 height: 574px;
 border-radius: 10px;
 border: 2px solid rgba(0, 0, 0, 0.30);
@@ -457,13 +457,13 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
   }
   .contact-container{
-    width: 517px;
-    height: 736px;
+    width: 440px;
+    height: 750px;
     border-radius: 20px;
     border: 3px solid rgba(0, 0, 0, 0.50);
     background-color: #3a3232f9;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.522), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin-left: 650px;
+    margin-left: 600px;
     margin-top: 20px;
     opacity: 0.9;
 
