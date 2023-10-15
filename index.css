@@ -49,12 +49,12 @@ position: relative;
     list-style: none;
     text-align: center;
     position: absolute;
-font-size: 15px;
-font-weight: 200;
+    font-size: 15px;
+    font-weight: 200;
     gap: 70px;
-right: 40px;
-letter-spacing: 9px;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    right: 40px;
+    letter-spacing: 9px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 ul li a {
@@ -74,15 +74,15 @@ a:hover {
 .headertitle{
     display: flex;
     flex-direction: column;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #77aeb0ae;
     text-align: center;
     padding-top: 280px;
 
 }
 
-.headertitle h1 {
-    font-size: 42px;
+div h1 {
+    font-size: 52px;
     letter-spacing: 6px;
     
 }
@@ -126,7 +126,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     flex-direction: row;
     justify-content: space-around;
     align-content: space-around;
-    max-width: 900px;
+    width: 900px;
     height: 832px;
     margin: 9%;    
 }
@@ -157,7 +157,7 @@ line-height: 35px; /* 116.667% */
 }
 
 .aboutmeimage1{
-    max-width: 500px;
+    width: 500px;
     position: relative;
     top: 250px;
     left: 90px;
@@ -177,7 +177,7 @@ line-height: 35px; /* 116.667% */
     margin-top: 100px;
 }
 
-.amt-container h3{
+div h3{
     margin: 10px;
 }
 
@@ -188,7 +188,6 @@ line-height: 35px; /* 116.667% */
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
-    height: auto;
     padding: 7%;   
 }
 .heading{
@@ -210,7 +209,7 @@ line-height: 35px; /* 116.667% */
 .container div {
     border: 3px solid #726f6f85;
     background: #d9d9d900;
-    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25), 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     padding: 10px;
     margin: 8px;
 }
@@ -247,13 +246,13 @@ line-height: 20px;
 
 
 /* the Table styling */
-div h2 {
+h2 {
     width: 1116px;
     height: 10px;
     letter-spacing: 2px;
     font-size: 60px;
-    padding-top: 80px;
-    padding-bottom: 100px;
+    margin-top: 80px;
+    margin-bottom: 100px;
     color: 	#000000;
     text-shadow: 4px 4px #1c1b1b94;
     margin-left: auto;
@@ -298,7 +297,6 @@ th:hover {
 .pcontainer{
     width: 100%;
     background-color: #c3b5b532;
-    border: 3px solid #281f1f99;
 }
 
 .pcontainer:hover{
@@ -398,21 +396,21 @@ th:hover {
 
 .form-container{
   background-color: #c9bbbbd7;
-  padding: 20px;
-  width: 500px;
-height: 574px;
-border-radius: 10px;
-border: 2px solid rgba(0, 0, 0, 0.30);
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.522), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-margin-left: 60px;
-position: absolute;
-opacity: 0.8;
-
+  margin: 20px;
+  width: 550px;
+  height: 494px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.30);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.522), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 60px;
+  position: absolute;
+ opacity: 0.8;
 }
 
 input[type=text], input[type=EMAIL], select, textarea {
     width: 100%;
-    padding: 12px;
+    height: 50px;
+    margin: 12px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -423,7 +421,7 @@ background: rgba(217, 217, 217, 0.10);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 input[id="Message"] {
-    height: 100px;
+    height: 50px;
 }
 
   input[type=submit] {
@@ -697,9 +695,6 @@ margin-top: 2px;
 .aboutmetext{
     font-size: 25px;
     line-height: 40px;
-}
-
-.amt-container{
 }
 
 .aboutme-container img {
