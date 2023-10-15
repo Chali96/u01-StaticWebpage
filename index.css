@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left, #311630, #84745d); /* Replace the colors with your desired gradient */
+    background: linear-gradient(to left, #311630, #84745d);
     padding: 0;
     overflow-x: hidden;
 }
@@ -13,20 +13,11 @@ body {
     display: none;
 }
 
- nav h2{
+nav p{
     display: none;
-    max-width: 800px;
-    height: auto;
-    color: #fff;
-    font-size: 50px;
-    line-height: 90px; /* 22.727% */
-    letter-spacing: 7px;
-    margin-top: 220px;
-    margin-left:100px;
-    text-shadow: 15px 10px #000000;
 }
 
-nav p{
+nav h2 {
     display: none;
 }
 /*hide the mobile nav*/
@@ -495,10 +486,19 @@ input[id="Message"] {
     }
 
     p {
-        color: white;
-        font-size: 30px;
+        color: #fafaface;
+        font-size: 60px;
         line-height: 50px;
+    }
 
+    h2{
+        color: #fff;
+        font-size: 40px;
+        line-height: 90px; /* 22.727% */
+        letter-spacing: 7px;
+        margin-top: 220px;
+        margin-left: 100px;
+        text-shadow: 15px 10px #000000;
     }
 
     /*Hamburger menu for mobile*/
@@ -508,15 +508,6 @@ input[id="Message"] {
         background-repeat: no-repeat;
         background-color: #000000;
         width: 100vw;
-    }
-
-    nav h2{
-        display: block;
-        padding-left: 40px;
-        font-size: 50px;
-        color: #c09c62;
-        text-shadow: #000000;
-        padding-bottom: 8px;
     }
     
     nav p{
@@ -678,7 +669,7 @@ input[id="Message"] {
 
 
 .section2{
-    padding-left: 2px;
+    padding-left: 1px;
 }
 .container{
     display: flex;
@@ -703,16 +694,18 @@ input[id="Message"] {
     font-size: 40px;
     text-decoration: none;
     list-style: none;
-    width: fit-content;
+    text-align: left;
+    margin: 50px;
 }
 
 
 .container p {
     color: #f6e9e9fa;
-    text-align: center;
+    text-align: left;
     font-size: 25px;
     line-height: 40px;
     width: 300px;
+    margin: 50px;
 }
 
 .heading{
@@ -722,14 +715,6 @@ input[id="Message"] {
 
 
 /* Section 3 */
-
- h2 {
-    letter-spacing: 2px;
-    font-size: 30px;
-    color: #f6e9e9fa;
-    margin-left: 100px;
-}
-
 
 .table {
     color: #fdfdfd;
@@ -800,7 +785,6 @@ input[id="Message"] {
     flex-direction: column;
     margin: 30px;
   }
-
   
 }
 
