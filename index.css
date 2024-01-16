@@ -81,31 +81,31 @@ a:hover {
 .headertitle {
     display: flex;
     flex-direction: column;
-    padding-top: 280px;
-    gap: 10px;
+    padding-top: 200px;
 }
 
 .headertitle hr {
- width: 18%;
-text-align: left;
-margin-left: 12%;
+ width: 23%;
+ margin: auto;
 }
 
 div h1 { 
-    color: #519292;
     font-size: 80px;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     text-align: center;
-    text-shadow: 0 10px 4px #ffffff, 0 4px 4px #00000045;
+    text-shadow: 10px 10px 10px #ffffff, 10px 10px 10px #ffffff;
+    background: linear-gradient(180deg, rgba(252, 206, 2, 0.43) 0%, rgba(0, 0, 0, 0) 100%);
+background-clip: text;
+color: #4e5554;
+
 }
 
 .headertitle p {
   font-size: 19px;
   color: #4e5554;
-  letter-spacing: 1px;
-  text-shadow: 0 5px 4px #9f9797, 0 4px 4px #00000045;
-text-align: left;
-margin-left: 12%;
+  letter-spacing: 3px;
+  text-shadow: 0 5px 4px #ffffff, 0 4px 4px #ffffff;
+text-align: center;
 }
 
 .favi2{
